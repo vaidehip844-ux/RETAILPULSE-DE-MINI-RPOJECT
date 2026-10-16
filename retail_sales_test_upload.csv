@@ -1,0 +1,21 @@
+order_id,customer_id,customer_name,email,region,product_id,product_name,category,quantity,unit_price,order_timestamp,status,source
+ORD-TEST-001,CUST-101,John Doe,john.doe@example.com,North America,PROD-001,Noise-Canceling Wireless Headphones,Electronics,2,149.99,2026-10-14 09:15:00,completed,csv_batch
+ORD-TEST-002,CUST-102,Emma Smith,emma.smith@example.com,Europe,PROD-002,Stainless Steel Espresso Machine,Home & Kitchen,1,249.99,2026-10-14 10:30:00,completed,csv_batch
+ORD-TEST-003,CUST-103,Liam Johnson,liam.j@example.com,Asia-Pacific,PROD-003,Ergonomic Mechanical Keyboard,Electronics,1,89.99,2026-10-14 11:45:00,completed,csv_batch
+ORD-TEST-004,CUST-104,Sophia Rodriguez,sophia.r@example.com,Latin America,PROD-004,Pro Gaming Optical Mouse,Electronics,3,49.99,2026-10-14 12:00:00,completed,csv_batch
+ORD-TEST-005,CUST-105,Zainab Al-Mansoor,zainab.m@example.com,Middle East,PROD-005,Running Athletic Shoes,Sports & Outdoors,2,119.50,2026-10-14 13:10:00,completed,csv_batch
+ORD-TEST-006,CUST-106,Lucas Moreau,lucas.m@example.com,Europe,PROD-006,4K Ultra HD Gaming Monitor,Electronics,1,399.99,2026-10-14 14:22:00,completed,csv_batch
+ORD-TEST-007,CUST-107,Chen Wei,chen.wei@example.com,Asia-Pacific,PROD-007,Stainless Steel Insulated Water Bottle,Sports & Outdoors,4,24.99,2026-10-14 15:05:00,completed,csv_batch
+ORD-TEST-008,CUST-108,Amara Okafor,amara.o@example.com,Africa,PROD-008,Waterproof Hiking Backpack,Sports & Outdoors,1,79.00,2026-10-14 16:40:00,completed,csv_batch
+ORD-TEST-009,CUST-109,Carlos Santana,carlos.s@example.com,Latin America,PROD-009,Smart Programmable Coffee Maker,Home & Kitchen,1,89.50,2026-10-14 17:15:00,completed,csv_batch
+ORD-TEST-010,CUST-110,Yuki Tanaka,yuki.t@example.com,Asia-Pacific,PROD-010,Organic Cotton Crewneck T-Shirt,Apparel,5,29.99,2026-10-14 18:00:00,completed,csv_batch
+ORD-TEST-003,CUST-103,Liam Johnson,liam.j@example.com,Asia-Pacific,PROD-003,Ergonomic Mechanical Keyboard,Electronics,1,89.99,2026-10-14 11:45:00,completed,csv_batch
+ORD-TEST-011,CUST-111,Fatima Zahra,fatima.z@example.com,Middle East,PROD-011,Air Purifier HEPA Filter,Home & Kitchen,2,,2026-10-14 19:20:00,completed,csv_batch
+ORD-TEST-012,CUST-112,Oliver Hansen,oliver.h@example.com,Europe,PROD-012,Smart Fitness Activity Tracker,,1,79.99,2026-10-14 20:05:00,completed,csv_batch
+ORD-TEST-013,CUST-113,Chloe Dubois,chloe.d@example.com,Europe,PROD-013,Luxury Silk Sleep Mask,Apparel,2,35.00,2026-10-14 20:45:00,completed,csv_batch
+ORD-TEST-014,CUST-114,Vikram Patel,vikram.p@example.com,Asia-Pacific,PROD-014,Fast Wireless Charging Pad,Electronics,3,39.99,2026-10-14 21:10:00,completed,csv_batch
+ORD-TEST-015,CUST-115,Elena Rostova,elena.r@example.com,Europe,PROD-015,The Pragmatic Programmer Book,Books,1,45.00,2026-10-14 21:50:00,completed,csv_batch
+ORD-TEST-016,CUST-116,Marcus Aurelius,marcus.a@example.com,North America,PROD-001,Noise-Canceling Wireless Headphones,Electronics,250,149.99,2026-10-14 22:15:00,completed,csv_batch
+ORD-TEST-017,CUST-117,Aisha Bello,aisha.b@example.com,Africa,PROD-008,Waterproof Hiking Backpack,Sports & Outdoors,2,79.00,2026-10-14 22:40:00,completed,csv_batch
+ORD-TEST-018,CUST-118,Mateo Rossi,mateo.r@example.com,Europe,PROD-004,Pro Gaming Optical Mouse,Electronics,1,49.99,2026-10-14 23:00:00,completed,csv_batch
+ORD-TEST-019,CUST-119,Sarah Connor,sarah.c@example.com,North America,PROD-003,Ergonomic Mechanical Keyboard,Electronics,2,89.99,2026-10-14 23:30:00,completed,csv_batch

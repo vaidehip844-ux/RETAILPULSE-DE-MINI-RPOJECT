@@ -1,0 +1,16 @@
+order_id,customer_id,customer_name,email,region,product_id,product_name,category,quantity,unit_price,order_timestamp,status,source
+ORD-TEST-001,CUST-101,Emma Watson,emma.watson@retailpulse.io,North America,PROD-001,Pulse Wireless Noise-Cancelling Headphones,Electronics,2,149.99,2026-10-12 14:30:00,completed,csv_batch
+ORD-TEST-002,CUST-102,Liam Neeson,liam.neeson@retailpulse.io,Europe,PROD-002,UltraHD 4K Smart Monitor 27-inch,Electronics,1,329.99,2026-10-12 15:15:00,completed,csv_batch
+ORD-TEST-003,CUST-103,Aarav Sharma,aarav.sharma@retailpulse.io,Asia-Pacific,PROD-005,Breathable Athletic Running Shoes,Sports & Outdoors,2,119.50,2026-10-13 09:20:00,completed,csv_batch
+ORD-TEST-004,CUST-104,Sophia Rodriguez,sophia.rodriguez@retailpulse.io,Latin America,PROD-011,Artisan Pour-Over Espresso Maker,Home & Kitchen,3,45.00,2026-10-13 11:45:00,completed,csv_batch
+ORD-TEST-005,CUST-105,Zainab Al-Mansoor,zainab.mansoor@retailpulse.io,Middle East,PROD-009,Slim Fit Denim Jeans,Apparel,1,65.00,2026-10-13 16:00:00,completed,csv_batch
+ORD-TEST-006,CUST-106,Lucas Müller,lucas.mueller@retailpulse.io,Europe,PROD-003,Ergonomic Mechanical Keyboard,Electronics,1,89.99,2026-10-14 10:10:00,completed,csv_batch
+ORD-TEST-007,CUST-107,Chen Wei,chen.wei@retailpulse.io,Asia-Pacific,PROD-007,Stainless Steel Insulated Water Bottle,Sports & Outdoors,4,24.99,2026-10-14 12:30:00,completed,csv_batch
+ORD-TEST-008,CUST-108,Amara Okafor,amara.okafor@retailpulse.io,Africa,PROD-014,Designing Data-Intensive Applications,Books & Media,2,48.00,2026-10-14 14:05:00,completed,csv_batch
+ORD-TEST-009,CUST-109,Carlos Gomez,carlos.gomez@retailpulse.io,Latin America,PROD-013,Smart LED Ambient Desk Lamp,Home & Kitchen,2,39.99,2026-10-14 17:25:00,completed,csv_batch
+ORD-TEST-010,CUST-110,Priya Patel,priya.patel@retailpulse.io,Asia-Pacific,PROD-004,Pro Gaming Optical Mouse,Electronics,1,49.99,2026-10-14 18:40:00,completed,csv_batch
+ORD-TEST-001,CUST-101,Emma Watson,emma.watson@retailpulse.io,North America,PROD-001,Pulse Wireless Noise-Cancelling Headphones,Electronics,2,149.99,2026-10-12 14:30:00,completed,csv_batch
+ORD-TEST-011,CUST-101,Emma Watson,emma.watson@retailpulse.io,North America,PROD-008,Organic Cotton Crewneck Sweater,Apparel,,54.00,2026-10-14 19:00:00,completed,csv_batch
+ORD-TEST-012,CUST-102,,liam.neeson@retailpulse.io,Europe,PROD-010,Classic Waterproof Trench Coat,Apparel,1,145.00,2026-10-14 20:15:00,completed,csv_batch
+ORD-TEST-013,CUST-103,Aarav Sharma,aarav.sharma@retailpulse.io,Asia-Pacific,PROD-006,All-Weather Hiking Backpack 35L,Sports & Outdoors,45,79.00,2026-10-14 21:00:00,completed,csv_batch
+ORD-TEST-014,CUST-104,Sophia Rodriguez,sophia.rodriguez@retailpulse.io,Latin America,PROD-015,The Pragmatic Programmer,Books & Media,1,-25.00,2026-10-14 22:30:00,pending,csv_batch

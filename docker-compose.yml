@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  # 1. PostgreSQL Relational Database (Single Database)
+  postgres:
+    image: postgres:16-alpine
+    container_name: retailpulse_postgres
+    environment:
+      POSTGRES_USER: retailpulse
+      POSTGRES_PASSWORD: retailpulse123
+      POSTGRES_DB: retailpulse_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./sql/schema.sql:/docker-entrypoint-initdb.d/01_schema.sql
+      - ./sql/views.sql:/docker-entrypoint-initdb.d/02_views.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U retailpulse -d retailpulse_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # 2. RabbitMQ Message Broker (Streaming Queue)
+  rabbitmq:
+    image: rabbitmq:3.13-management-alpine
+    container_name: retailpulse_rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+
+volumes:
+  pgdata:

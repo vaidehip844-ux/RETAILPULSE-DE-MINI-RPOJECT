@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+ENV/
+.venv/
+
+# Environment variables & secrets
+.env
+!.env.example
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+logs/*.log
+*.log
+
+# Airflow logs and run files
+airflow.cfg
+airflow.db
+standalone_admin_password.txt
+
+# Great Expectations generated uncommitted stores
+great_expectations/uncommitted/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Test caches
+.pytest_cache/
+
+# Local helpers
+push_to_github.bat
+git.ps1
